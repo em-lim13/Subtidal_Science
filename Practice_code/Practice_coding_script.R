@@ -18,6 +18,7 @@
 install.packages("tidyverse")
 install.packages("ggplot2")
 install.packages("MuMIn")
+install.packages("lme4")
 
 # Now we'll load them into this project so we can use them!
 # Note that you don't need "" marks here
@@ -25,6 +26,7 @@ install.packages("MuMIn")
 library(tidyverse) # Package for data manipulation
 library(ggplot2) # Graphing package
 library(MuMIn)  #AIC package
+library(lme4)
 
 # Now, let's learn how to load in your data!
 # You need to first enter your data into an excel spreadsheet and then save the file in a .csv (Comma Separated Values) format that R can understand. R does not like capitals or spaces in data column names so try to use periods or underscores as spacers, e.g., barnacle.data or barnacle_data. 
@@ -108,7 +110,102 @@ ggplot(data = anemones, aes(x = reaction.time.s, y = pool.area.cm2)) +
   theme_classic()
 
 # Now let's plot continuous versus categorical data
-# We'll use a dot and whiskers plot because... I'll let you click this link yourselves:
+# We'll use a boxplot but consider using dot and whisker plots because:
 # https://bayesbaes.github.io/2022/04/13/fuck-boxplots.html
-plot(anemones$reaction.time.s ~ anemones$different.colony)
+
+ggplot(anemones, aes(x = different.colony, y = reaction.time.s, colour = different.colony)) + # note that colour goes inside the aes brackets
+  geom_boxplot() +
+  theme_classic() +
+  labs(x = "Colony", y = "Reaction time (s)") +
+  theme(legend.position = "none") # get rid of the legend
+
+# Let's use a model to see if reaction times are different between clonal and nonclonal anemones
+anemone_model <- lm(reaction.time.s ~ different.colony, data = anemones)
+summary(anemone_model)
+
+# BUT the students might have affected the data, so lets "control" for the effect of the observer
+# We'll use (1|student) to add a random effect to this model
+# And because we're including a random effect, we'll use lmer() instead of lm()
+anemone_model_random <- lmer(reaction.time.s ~ different.colony + 1|students, data = anemones)
+summary(anemone_model_random)
+
+# Now let's try playing around with tidyverse!
+
+# Reef Life Survey --------
+
+# Here we're going to play with some messy data
+# This is the data I helped collect last spring with Siobhan and Jasmin for reef life surveys
+
+# let's see what happens if we just load in the data like we've been doing
+rls_ugly <- read_csv("Practice_data/updated_RLS.csv")
+View(rls_ugly) # you can see there's a  blank row, and the first column is also blank, and some of the column names have spaces. Let's fix this using tidyverse!
+
+rls <- rls_ugly %>% # The %>% symbol is called a pipe. We can create a new df by "piping" our old dataframe through a series of manipulations
+  select(-1) %>% #  remove that first blank column
+  slice(2:n()) %>% # remove the first blank row
+  rename(
+    site_ID = `Site No.`,
+    site_name = `Site Name`, 
+    common_name = `Common name`
+  ) %>% # rename the columns with spaces in their names
+  filter(Species != "Debris - Metal") %>%
+  filter(Species != "Debris - Other") %>%
+  filter(Species != "Debris - Wood") %>%
+  filter(Species != "Debris - Glass") %>%
+  filter(Species != "Debris - Fishing Gear") # Filter our the data on debris, we just want living species data!
+
+# Let's take a look at this tidy dataframe now
+View(rls)
+# That looks better!
+
+# I wonder what the most abundant species are?
+# We can use group_by() and summarise() to group all counts of the same species together, and then calculate summary statistics on these groups
+# Then we can arrange the summary stats into a nice table and use View() to look at it
+rls_ranked <- rls %>% 
+  group_by(common_name) %>% 
+  summarise(sum = sum(Total))  %>%
+  arrange(desc(sum)) %>%
+  View()
+
+# We can see now that red sea urchins were the most abundant thing we encountered on RLS surveys last year
+
+# What if we wanted to find the site with the most bat stars?
+rls_bats <- rls %>%
+  filter(Species == "Patiria miniata") %>%
+  group_by(site_ID, site_name) %>%
+  summarize(bat_stars = sum(Total)) %>%
+  arrange(desc(bat_stars)) %>%
+  as.data.frame()
+
+View(rls_bats)
+# Faber and Wouwer are both in the Broken group, maybe we can use this data to convince Siobhan and Isa to take us there!
+
+# Other important functions in tidyverse: mutate() and left_join()
+
+# We might also be interested in leather stars, how many of those did we find at each site?
+rls_leather <- rls %>%
+  filter(Species == "Dermasterias imbricata") %>%
+  group_by(site_ID, site_name) %>%
+  summarize(leather_stars = sum(Total)) %>%
+  arrange(desc(leather_stars)) %>%
+  as.data.frame()
+
+# Now let's join those two using left_join
+rls_stars <- rls_bats %>% # We start with one of the two data frames we want to join
+  left_join(rls_leather, by = c("site_ID", "site_name")) %>% # then we specify the second data frame and choose the variable we want to join the two by. in our case, site_ID
+  mutate(stars = leather_stars + bat_stars) # create a new column
+
+# Let's import some pee data to play with 
+pee <- read_csv("Practice_data/RSL_pee.csv") %>%
+  as.data.frame()
+
+# I wonder if sites with higher numbers of bat stars also have higher concentrations of pee?
+# Let's join the two data frames and find out
+
+bat_pee <- rls_bats %>% 
+  left_join(pee,  by = "site_ID") 
+
+
+
+
 
