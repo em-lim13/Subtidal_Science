@@ -17,7 +17,7 @@
 # Once a package is installed we don't need to install them again
 install.packages("tidyverse")
 install.packages("ggplot2")
-install.packages("MuMIn")
+install.packages("ggeffects")
 install.packages("lme4")
 
 # Now we'll load them into this project so we can use them!
@@ -25,7 +25,7 @@ install.packages("lme4")
 # You need to load packages each time you use them in a new project
 library(tidyverse) # Package for data manipulation
 library(ggplot2) # Graphing package
-library(MuMIn)  #AIC package
+library(ggeffects)  # calculates effects 
 library(lme4)
 
 # Now, let's learn how to load in your data!
@@ -110,8 +110,7 @@ ggplot(data = anemones, aes(x = reaction.time.s, y = pool.area.cm2)) +
   theme_classic()
 
 # Now let's plot continuous versus categorical data
-# We'll use a boxplot but consider using dot and whisker plots because:
-# https://bayesbaes.github.io/2022/04/13/fuck-boxplots.html
+# We'll use a boxplot to plot this first
 
 ggplot(anemones, aes(x = different.colony, y = reaction.time.s, colour = different.colony)) + # note that colour goes inside the aes brackets
   geom_boxplot() +
@@ -123,11 +122,41 @@ ggplot(anemones, aes(x = different.colony, y = reaction.time.s, colour = differe
 anemone_model <- lm(reaction.time.s ~ different.colony, data = anemones)
 summary(anemone_model)
 
-# BUT the students might have affected the data, so lets "control" for the effect of the observer
-# We'll use (1|student) to add a random effect to this model
-# And because we're including a random effect, we'll use lmer() instead of lm()
-anemone_model_random <- lmer(reaction.time.s ~ different.colony + 1|students, data = anemones)
-summary(anemone_model_random)
+# Boxplots aren't the greatest way to display data, so consider using dot and whisker plots because:
+  # https://bayesbaes.github.io/2022/04/13/fuck-boxplots.html
+
+# In order to plot a dot and whiskers we need the means and standard errors for each categorical variable
+# We can use ggpredict() from the ggeffects package to calculate these using our model
+
+sum_stats_gg <- ggpredict(anemone_model, terms = "different.colony") %>% 
+  #and then we'll just rename one of the columns so it's easier to plot
+  dplyr::rename(different.colony = x,
+                reaction.time.s = predicted)
+View(sum_stats_gg)
+
+# Now let's plot this 
+ggplot() +
+  geom_point(data = sum_stats_gg, 
+             aes(x = different.colony, y = reaction.time.s),
+             size = 4) +
+  geom_errorbar(data = sum_stats_gg, 
+                aes(x = different.colony,
+                    y = reaction.time.s,
+                    # and you can decide which type of error to show here
+                    # we're using 95% CI
+                    ymin = conf.low,
+                    ymax = conf.high),
+                width = 0.2,
+                size = 1.2)  +
+  geom_jitter(data = anemones, aes (x = different.colony, y = reaction.time.s),
+              alpha = 0.2, height=0) +
+  labs(x = "Colony", y = "Reaction time (s)")
+  theme_classic()
+
+# You'll notice that we didn't specify the data inside ggplot(), instead we specified the data frame and x and y within each geom_()
+# This is because we're using our summarized data frame to make the dot and whiskers and we used our full data frame to add the jittered raw data
+
+# But look how nice that looks! And you can see the real trends in the data
 
 # Now let's try playing around with tidyverse!
 
@@ -140,7 +169,7 @@ summary(anemone_model_random)
 rls_ugly <- read_csv("Practice_data/updated_RLS.csv")
 View(rls_ugly) # you can see there's a  blank row, and the first column is also blank, and some of the column names have spaces. Let's fix this using tidyverse!
 
-rls <- rls_ugly %>% # The %>% symbol is called a pipe. We can create a new df by "piping" our old dataframe through a series of manipulations
+rls <- rls_ugly %>% # The %>% symbol is called a pipe. We can create a new df by "piping" our old data frame through a series of manipulations
   select(-1) %>% #  remove that first blank column
   slice(2:n()) %>% # remove the first blank row
   rename(
@@ -171,14 +200,14 @@ rls_ranked <- rls %>%
 
 # What if we wanted to find the site with the most bat stars?
 rls_bats <- rls %>%
-  filter(Species == "Patiria miniata") %>%
+  filter(Species == "Patiria miniata") %>% # only retain observations of bat stars
   group_by(site_ID, site_name) %>%
-  summarize(bat_stars = sum(Total)) %>%
-  arrange(desc(bat_stars)) %>%
-  as.data.frame()
+  summarize(bat_stars = sum(Total)) %>% # sum total number of bat stars at each site
+  arrange(desc(bat_stars)) %>% # sort the table from highest to lowest
+  as.data.frame() # make this into a data frame
 
 View(rls_bats)
-# Faber and Wouwer are both in the Broken group, maybe we can use this data to convince Siobhan and Isa to take us there!
+# Faber and Wouwer have the most bat stars, and  both in the Broken group, maybe we can use this data to convince Siobhan and Isa to take us there!
 
 # Other important functions in tidyverse: mutate() and left_join()
 
@@ -190,22 +219,47 @@ rls_leather <- rls %>%
   arrange(desc(leather_stars)) %>%
   as.data.frame()
 
-# Now let's join those two using left_join
+# I wonder where we found the most leather and bat stars, can we join these?
+# YES! Using left_join() and mutate()
 rls_stars <- rls_bats %>% # We start with one of the two data frames we want to join
-  left_join(rls_leather, by = c("site_ID", "site_name")) %>% # then we specify the second data frame and choose the variable we want to join the two by. in our case, site_ID
-  mutate(stars = leather_stars + bat_stars) # create a new column
+  left_join(rls_leather, by = c("site_ID", "site_name")) %>% # then we specify the second data frame and choose the variable we want to join the two by. in our case, site_ID and site_name
+  mutate(stars = leather_stars + bat_stars) %>% # create a new column with the summed number of bat and leather stars
+  arrange(desc(stars))  
+
+View(rls_stars)
+
+# BONUS FUN ------
 
 # Let's import some pee data to play with 
 pee <- read_csv("Practice_data/RSL_pee.csv") %>%
   as.data.frame()
 
-# I wonder if sites with higher numbers of bat stars also have higher concentrations of pee?
+# I wonder if sites with higher numbers of stars also have higher concentrations of pee?
 # Let's join the two data frames and find out
 
-bat_pee <- rls_bats %>% 
+star_pee <- rls_stars %>% 
   left_join(pee,  by = "site_ID") 
 
+ggplot(star_pee, aes(stars, pee)) +
+  geom_point() +
+  geom_smooth(method = lm) +
+  theme_classic()
 
+ggsave("Output/star_pee.png", device = "png",
+     height = 9, width = 16, dpi = 400)
 
+# Fun tricks --------
 
+# Option + drag your mouse
+# This lets you type on multiple rows
+
+# Ctrl + Shift + C ( Command + Shift + C on macOS)
+# This hashes out multiple lines of code
+
+# Ctrl+Shift+M (Windows) or Cmd+Shift+M (Mac)
+# %>% symbol
+
+# Use Ctrl+L to clear all the code from your console.
+
+# You can rename all instances of a variable name by highlighting one instance of the variable name and then using Code > Rename in Scope. This is better than using Edit > Replace and Find because it only looks for whole word matches.
 
