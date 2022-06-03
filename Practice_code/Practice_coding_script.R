@@ -150,7 +150,7 @@ ggplot() +
                 size = 1.2)  +
   geom_jitter(data = anemones, aes (x = different.colony, y = reaction.time.s),
               alpha = 0.2, height=0) +
-  labs(x = "Colony", y = "Reaction time (s)")
+  labs(x = "Colony", y = "Reaction time (s)") +
   theme_classic()
 
 # You'll notice that we didn't specify the data inside ggplot(), instead we specified the data frame and x and y within each geom_()
@@ -164,8 +164,9 @@ ggplot() +
 
 # Here we're going to play with some messy data
 # This is the data I helped collect last spring with Siobhan and Jasmin for reef life surveys
+# RLS uses a standardized spreadsheet which doesn't read super cleanly into R
 
-# let's see what happens if we just load in the data like we've been doing
+# let's see what happens if we just load in the data without any manipulations
 rls_ugly <- read_csv("Practice_data/updated_RLS.csv")
 View(rls_ugly) # you can see there's a  blank row, and the first column is also blank, and some of the column names have spaces. Let's fix this using tidyverse!
 
@@ -219,12 +220,17 @@ rls_leather <- rls %>%
   arrange(desc(leather_stars)) %>%
   as.data.frame()
 
+View(rls_leather)
+
 # I wonder where we found the most leather and bat stars, can we join these?
 # YES! Using left_join() and mutate()
 rls_stars <- rls_bats %>% # We start with one of the two data frames we want to join
   left_join(rls_leather, by = c("site_ID", "site_name")) %>% # then we specify the second data frame and choose the variable we want to join the two by. in our case, site_ID and site_name
   mutate(stars = leather_stars + bat_stars) %>% # create a new column with the summed number of bat and leather stars
   arrange(desc(stars))  
+
+# Wouwer is throwing a NA because it's trying to add NA + a number
+# FIX THIS
 
 View(rls_stars)
 
