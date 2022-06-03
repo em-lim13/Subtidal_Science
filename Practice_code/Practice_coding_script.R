@@ -130,7 +130,7 @@ summary(anemone_model)
 
 sum_stats_gg <- ggpredict(anemone_model, terms = "different.colony") %>% 
   #and then we'll just rename one of the columns so it's easier to plot
-  dplyr::rename(different.colony = x,
+  rename(different.colony = x,
                 reaction.time.s = predicted)
 View(sum_stats_gg)
 
@@ -158,7 +158,7 @@ ggplot() +
 
 # But look how nice that looks! And you can see the real trends in the data
 
-# Now let's try playing around with tidyverse!
+# Now let's try playing around with dplyr!
 
 # Reef Life Survey --------
 
@@ -242,9 +242,12 @@ pee <- read_csv("Practice_data/RSL_pee.csv") %>%
 
 # I wonder if sites with higher numbers of stars also have higher concentrations of pee?
 # Let's join the two data frames and find out
+# We can also use a combination of mutate() and ifelse() to do manipulations that are dependent on variables in other columns
+# ifelse() says if [condition is met], then [create a new variable], else, [create this other variable] 
 
 star_pee <- rls_stars %>% 
-  left_join(pee,  by = "site_ID") 
+  left_join(pee,  by = "site_ID") %>%
+  mutate(begging = ifelse(site_name == "Faber Islets", "Please take us to the broken group", "Please please please"))
 
 ggplot(star_pee, aes(stars, pee)) +
   geom_point() +
