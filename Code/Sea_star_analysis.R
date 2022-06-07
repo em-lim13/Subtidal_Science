@@ -32,6 +32,9 @@ filter(species != "velcro star") %>%
   filter(species != "cushion star") %>%
   filter(species != "ochre star")
 
+leather <- stars %>%
+  filter(species == "leather star")
+
 no_zeros <- abundant_stars %>%
   filter(density != 0)
 
