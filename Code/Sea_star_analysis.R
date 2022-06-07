@@ -37,15 +37,19 @@ no_zeros <- abundant_stars %>%
 
 # Plot the most abundant stars ???
 ggplot(data = abundant_stars, aes(year, density, colour = species)) +
-  geom_jitter() +
-  geom_smooth(alpha = 0.01) +
+  geom_jitter(size = 2.8) +
+  geom_smooth(alpha = 0.01, size = 1.6) +
   theme_white() +
-  labs(x = "Year", y = "Density", colour = "Species")
+  labs(x = "Year", y = "Density", colour = "Species") +
+  xlim(c(2014, 2022))
+
+ggsave("Output/Star_trend.png", device = "png",
+       height = 9, width = 16, dpi = 400)
 
 # Just sun stars
 ggplot(data = sun_stars, aes(year, density, colour = species)) +
-  geom_jitter() +
-  geom_smooth(alpha = 0.01) +
+  geom_jitter(size = 2.8) +
+  geom_smooth(alpha = 0.01, size = 1.6) +
   theme_white() +
   xlim(c(2014, 2022)) +
   labs(x = "Year", y = "Density", colour = "Species")
