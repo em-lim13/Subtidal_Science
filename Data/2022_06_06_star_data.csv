@@ -1,0 +1,558 @@
+year,pair,transect length,transect_width,belt_area,depth,substrate,species,total_transect,density
+2022,Andrew_Danja,20,2,40,12,sand,vermilion star,2,0.05
+2022,Andrew_Danja,20,2,40,12,sand,leather star,1,0.025
+2022,Andrew_Danja,20,2,40,12,sand,bat star,0,0
+2022,Andrew_Danja,20,2,40,12,sand,painted star,0,0
+2022,Andrew_Danja,20,2,40,12,sand,blood star,0,0
+2022,Andrew_Danja,20,2,40,12,sand,ochre star,0,0
+2022,Andrew_Danja,20,2,40,12,sand,mottled star,0,0
+2022,Andrew_Danja,20,2,40,12,sand,cushion star,0,0
+2022,Andrew_Danja,20,2,40,12,sand,sunflower star,0,0
+2022,Andrew_Danja,20,2,40,12,sand,striped sunflower star,0,0
+2022,Andrew_Danja,20,2,40,12,sand,velcro star,0,0
+2022,Andrew_Danja,20,2,40,8.2,cobble,vermilion star,0,0
+2022,Andrew_Danja,20,2,40,8.2,cobble,leather star,3,0.075
+2022,Andrew_Danja,20,2,40,8.2,cobble,bat star,4,0.1
+2022,Andrew_Danja,20,2,40,8.2,cobble,painted star,1,0.025
+2022,Andrew_Danja,20,2,40,8.2,cobble,blood star,1,0.025
+2022,Andrew_Danja,20,2,40,8.2,cobble,ochre star,0,0
+2022,Andrew_Danja,20,2,40,8.2,cobble,mottled star,0,0
+2022,Andrew_Danja,20,2,40,8.2,cobble,cushion star,0,0
+2022,Andrew_Danja,20,2,40,8.2,cobble,sunflower star,0,0
+2022,Andrew_Danja,20,2,40,8.2,cobble,striped sunflower star,0,0
+2022,Andrew_Danja,20,2,40,8.2,cobble,velcro star,0,0
+2022,Andrew_Danja,12,2,24,5.1816,rock,vermilion star,0,0
+2022,Andrew_Danja,12,2,24,5.1816,rock,leather star,5,0.208333333
+2022,Andrew_Danja,12,2,24,5.1816,rock,bat star,6,0.25
+2022,Andrew_Danja,12,2,24,5.1816,rock,painted star,1,0.041666667
+2022,Andrew_Danja,12,2,24,5.1816,rock,blood star,7,0.291666667
+2022,Andrew_Danja,12,2,24,5.1816,rock,ochre star,1,0.041666667
+2022,Andrew_Danja,12,2,24,5.1816,rock,mottled star,2,0.083333333
+2022,Andrew_Danja,12,2,24,5.1816,rock,cushion star,0,0
+2022,Andrew_Danja,12,2,24,5.1816,rock,sunflower star,0,0
+2022,Andrew_Danja,12,2,24,5.1816,rock,striped sunflower star,0,0
+2022,Andrew_Danja,12,2,24,5.1816,rock,velcro star,0,0
+2022,Paige_Jeremy,20,2,40,12,sand,vermilion star,4,0.1
+2022,Paige_Jeremy,20,2,40,12,sand,leather star,3,0.075
+2022,Paige_Jeremy,20,2,40,12,sand,bat star,0,0
+2022,Paige_Jeremy,20,2,40,12,sand,painted star,0,0
+2022,Paige_Jeremy,20,2,40,12,sand,blood star,0,0
+2022,Paige_Jeremy,20,2,40,12,sand,ochre star,0,0
+2022,Paige_Jeremy,20,2,40,12,sand,mottled star,0,0
+2022,Paige_Jeremy,20,2,40,12,sand,cushion star,0,0
+2022,Paige_Jeremy,20,2,40,12,sand,sunflower star,0,0
+2022,Paige_Jeremy,20,2,40,12,sand,striped sunflower star,0,0
+2022,Paige_Jeremy,20,2,40,12,sand,velcro star,0,0
+2022,Paige_Jeremy,20,2,40,9,cobble,vermilion star,0,0
+2022,Paige_Jeremy,20,2,40,9,cobble,leather star,3,0.075
+2022,Paige_Jeremy,20,2,40,9,cobble,bat star,0,0
+2022,Paige_Jeremy,20,2,40,9,cobble,painted star,0,0
+2022,Paige_Jeremy,20,2,40,9,cobble,blood star,0,0
+2022,Paige_Jeremy,20,2,40,9,cobble,ochre star,0,0
+2022,Paige_Jeremy,20,2,40,9,cobble,mottled star,1,0.025
+2022,Paige_Jeremy,20,2,40,9,cobble,cushion star,0,0
+2022,Paige_Jeremy,20,2,40,9,cobble,sunflower star,0,0
+2022,Paige_Jeremy,20,2,40,9,cobble,striped sunflower star,0,0
+2022,Paige_Jeremy,20,2,40,9,cobble,velcro star,0,0
+2022,Quinn_Avril,20,2,40,12.192,sand,vermilion star,7,0.175
+2022,Quinn_Avril,20,2,40,12.192,sand,leather star,0,0
+2022,Quinn_Avril,20,2,40,12.192,sand,bat star,0,0
+2022,Quinn_Avril,20,2,40,12.192,sand,painted star,2,0.05
+2022,Quinn_Avril,20,2,40,12.192,sand,blood star,2,0.05
+2022,Quinn_Avril,20,2,40,12.192,sand,ochre star,0,0
+2022,Quinn_Avril,20,2,40,12.192,sand,mottled star,1,0.025
+2022,Quinn_Avril,20,2,40,12.192,sand,cushion star,1,0.025
+2022,Quinn_Avril,20,2,40,12.192,sand,sunflower star,0,0
+2022,Quinn_Avril,20,2,40,12.192,sand,striped sunflower star,0,0
+2022,Quinn_Avril,20,2,40,12.192,sand,velcro star,0,0
+2022,Quinn_Avril,20,2,40,9.144,sand,vermilion star,0,0
+2022,Quinn_Avril,20,2,40,9.144,sand,leather star,1,0.025
+2022,Quinn_Avril,20,2,40,9.144,sand,bat star,0,0
+2022,Quinn_Avril,20,2,40,9.144,sand,painted star,1,0.025
+2022,Quinn_Avril,20,2,40,9.144,sand,blood star,0,0
+2022,Quinn_Avril,20,2,40,9.144,sand,ochre star,0,0
+2022,Quinn_Avril,20,2,40,9.144,sand,mottled star,1,0.025
+2022,Quinn_Avril,20,2,40,9.144,sand,cushion star,0,0
+2022,Quinn_Avril,20,2,40,9.144,sand,sunflower star,1,0.025
+2022,Quinn_Avril,20,2,40,9.144,sand,striped sunflower star,0,0
+2022,Quinn_Avril,20,2,40,9.144,sand,velcro star,0,0
+2022,Quinn_Avril,20,2,40,4.572,rock,vermilion star,0,0
+2022,Quinn_Avril,20,2,40,4.572,rock,leather star,4,0.1
+2022,Quinn_Avril,20,2,40,4.572,rock,bat star,1,0.025
+2022,Quinn_Avril,20,2,40,4.572,rock,painted star,2,0.05
+2022,Quinn_Avril,20,2,40,4.572,rock,blood star,1,0.025
+2022,Quinn_Avril,20,2,40,4.572,rock,ochre star,2,0.05
+2022,Quinn_Avril,20,2,40,4.572,rock,mottled star,1,0.025
+2022,Quinn_Avril,20,2,40,4.572,rock,cushion star,0,0
+2022,Quinn_Avril,20,2,40,4.572,rock,sunflower star,0,0
+2022,Quinn_Avril,20,2,40,4.572,rock,striped sunflower star,1,0.025
+2022,Quinn_Avril,20,2,40,4.572,rock,velcro star,0,0
+2022,Sierra_Carolyn,20,2,40,12.192,sand,vermilion star,0,0
+2022,Sierra_Carolyn,20,2,40,12.192,sand,leather star,0,0
+2022,Sierra_Carolyn,20,2,40,12.192,sand,bat star,0,0
+2022,Sierra_Carolyn,20,2,40,12.192,sand,painted star,0,0
+2022,Sierra_Carolyn,20,2,40,12.192,sand,blood star,7,0.175
+2022,Sierra_Carolyn,20,2,40,12.192,sand,ochre star,0,0
+2022,Sierra_Carolyn,20,2,40,12.192,sand,mottled star,0,0
+2022,Sierra_Carolyn,20,2,40,12.192,sand,cushion star,0,0
+2022,Sierra_Carolyn,20,2,40,12.192,sand,sunflower star,0,0
+2022,Sierra_Carolyn,20,2,40,12.192,sand,striped sunflower star,1,0.025
+2022,Sierra_Carolyn,20,2,40,12.192,sand,velcro star,1,0.025
+2022,Sierra_Carolyn,20,2,40,9.144,sand,vermilion star,2,0.05
+2022,Sierra_Carolyn,20,2,40,9.144,sand,leather star,1,0.025
+2022,Sierra_Carolyn,20,2,40,9.144,sand,bat star,0,0
+2022,Sierra_Carolyn,20,2,40,9.144,sand,painted star,0,0
+2022,Sierra_Carolyn,20,2,40,9.144,sand,blood star,2,0.05
+2022,Sierra_Carolyn,20,2,40,9.144,sand,ochre star,0,0
+2022,Sierra_Carolyn,20,2,40,9.144,sand,mottled star,0,0
+2022,Sierra_Carolyn,20,2,40,9.144,sand,cushion star,0,0
+2022,Sierra_Carolyn,20,2,40,9.144,sand,sunflower star,4,0.1
+2022,Sierra_Carolyn,20,2,40,9.144,sand,striped sunflower star,0,0
+2022,Sierra_Carolyn,20,2,40,9.144,sand,velcro star,0,0
+2014,Beau & Tella,20,3,60,8.5,,green urchin,0,0
+2014,Beau & Tella,20,3,60,8.5,,green urchin,0,0
+2014,Beau & Tella,20,3,60,8.5,,leather star,0,0
+2014,Beau & Tella,20,3,60,8.5,,leather star,0,0
+2014,Beau & Tella,20,3,60,8.5,,leather star,0,0
+2014,Beau & Tella,20,3,60,8.5,,sunflower star,1,0.016666667
+2014,Beau & Tella,20,3,60,8.5,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,8.5,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,8.5,,red urchin,0,0
+2014,Beau & Tella,20,3,60,8.5,,striped sunflower star,0,0
+2014,Beau & Tella,20,3,60,8.5,,morning star,0,0
+2014,Beau & Tella,20,3,60,8.5,,purple urchin,0,0
+2014,Beau & Tella,20,3,60,8.5,,green urchin,0,0
+2014,Beau & Tella,20,3,60,8.5,,green urchin,0,0
+2014,Beau & Tella,20,3,60,8.5,,leather star,1,0.016666667
+2014,Beau & Tella,20,3,60,8.5,,leather star,0,0
+2014,Beau & Tella,20,3,60,8.5,,leather star,0,0
+2014,Beau & Tella,20,3,60,8.5,,sunflower star,1,0.016666667
+2014,Beau & Tella,20,3,60,8.5,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,8.5,,sunflower star,1,0.016666667
+2014,Beau & Tella,20,3,60,8.5,,red urchin,82,1.366666667
+2014,Beau & Tella,20,3,60,8.5,,striped sunflower star,0,0
+2014,Beau & Tella,20,3,60,8.5,,morning star,1,0.016666667
+2014,Beau & Tella,20,3,60,8.5,,purple urchin,0,0
+2014,Beau & Tella,20,3,60,8.5,,green urchin,0,0
+2014,Beau & Tella,20,3,60,8.5,,green urchin,0,0
+2014,Beau & Tella,20,3,60,8.5,,leather star,0,0
+2014,Beau & Tella,20,3,60,8.5,,leather star,0,0
+2014,Beau & Tella,20,3,60,8.5,,leather star,0,0
+2014,Beau & Tella,20,3,60,8.5,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,8.5,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,8.5,,sunflower star,3,0.05
+2014,Beau & Tella,20,3,60,8.5,,red urchin,242,4.033333333
+2014,Beau & Tella,20,3,60,8.5,,striped sunflower star,2,0.033333333
+2014,Beau & Tella,20,3,60,8.5,,morning star,2,0.033333333
+2014,Beau & Tella,20,3,60,8.5,,purple urchin,0,0
+2014,Beau & Tella,20,3,60,13,,green urchin,0,0
+2014,Beau & Tella,20,3,60,13,,green urchin,0,0
+2014,Beau & Tella,20,3,60,13,,leather star,1,0.016666667
+2014,Beau & Tella,20,3,60,13,,leather star,0,0
+2014,Beau & Tella,20,3,60,13,,leather star,0,0
+2014,Beau & Tella,20,3,60,13,,sunflower star,1,0.016666667
+2014,Beau & Tella,20,3,60,13,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,13,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,13,,red urchin,0,0
+2014,Beau & Tella,20,3,60,13,,striped sunflower star,0,0
+2014,Beau & Tella,20,3,60,13,,morning star,0,0
+2014,Beau & Tella,20,3,60,13,,purple urchin,0,0
+2014,Beau & Tella,20,3,60,4,,green urchin,1,0.016666667
+2014,Beau & Tella,20,3,60,4,,green urchin,15,0.25
+2014,Beau & Tella,20,3,60,4,,leather star,0,0
+2014,Beau & Tella,20,3,60,4,,leather star,4,0.066666667
+2014,Beau & Tella,20,3,60,4,,leather star,0,0
+2014,Beau & Tella,20,3,60,4,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,4,,sunflower star,5,0.083333333
+2014,Beau & Tella,20,3,60,4,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,4,,red urchin,275,4.583333333
+2014,Beau & Tella,20,3,60,4,,striped sunflower star,0,0
+2014,Beau & Tella,20,3,60,4,,morning star,1,0.016666667
+2014,Beau & Tella,20,3,60,4,,purple urchin,0,0
+2014,Beau & Tella,20,3,60,4.5,,green urchin,0,0
+2014,Beau & Tella,20,3,60,4.5,,green urchin,6,0.1
+2014,Beau & Tella,20,3,60,4.5,,leather star,0,0
+2014,Beau & Tella,20,3,60,4.5,,leather star,0,0
+2014,Beau & Tella,20,3,60,4.5,,leather star,0,0
+2014,Beau & Tella,20,3,60,4.5,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,4.5,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,4.5,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,4.5,,red urchin,332,5.533333333
+2014,Beau & Tella,20,3,60,4.5,,striped sunflower star,0,0
+2014,Beau & Tella,20,3,60,4.5,,morning star,1,0.016666667
+2014,Beau & Tella,20,3,60,4.5,,purple urchin,0,0
+2014,Beau & Tella,20,3,60,8.5,,green urchin,0,0
+2014,Beau & Tella,20,3,60,8.5,,green urchin,4,0.066666667
+2014,Beau & Tella,20,3,60,8.5,,leather star,0,0
+2014,Beau & Tella,20,3,60,8.5,,leather star,1,0.016666667
+2014,Beau & Tella,20,3,60,8.5,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,8.5,,sunflower star,1,0.016666667
+2014,Beau & Tella,20,3,60,8.5,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,8.5,,red urchin,242,4.033333333
+2014,Beau & Tella,20,3,60,8.5,,striped sunflower star,2,0.033333333
+2014,Beau & Tella,20,3,60,8.5,,morning star,2,0.033333333
+2014,Beau & Tella,20,3,60,8.5,,purple urchin,0,0
+2014,Beau & Tella,20,3,60,8.5,,green urchin,0,0
+2014,Beau & Tella,20,3,60,8.5,,green urchin,2,0.033333333
+2014,Beau & Tella,20,3,60,8.5,,leather star,0,0
+2014,Beau & Tella,20,3,60,8.5,,leather star,0,0
+2014,Beau & Tella,20,3,60,8.5,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,8.5,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,8.5,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,8.5,,red urchin,298,4.966666667
+2014,Beau & Tella,20,3,60,8.5,,striped sunflower star,2,0.033333333
+2014,Beau & Tella,20,3,60,8.5,,morning star,2,0.033333333
+2014,Beau & Tella,20,3,60,8.5,,purple urchin,0,0
+2014,Beau & Tella,20,3,60,8.5,,green urchin,0,0
+2014,Beau & Tella,20,3,60,8.5,,green urchin,0,0
+2014,Beau & Tella,20,3,60,8.5,,leather star,0,0
+2014,Beau & Tella,20,3,60,8.5,,leather star,0,0
+2014,Beau & Tella,20,3,60,8.5,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,8.5,,sunflower star,1,0.016666667
+2014,Beau & Tella,20,3,60,8.5,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,8.5,,red urchin,242,4.033333333
+2014,Beau & Tella,20,3,60,8.5,,striped sunflower star,1,0.016666667
+2014,Beau & Tella,20,3,60,8.5,,morning star,2,0.033333333
+2014,Beau & Tella,20,3,60,8.5,,purple urchin,0,0
+2014,Beau & Tella,20,3,60,13.75,,green urchin,0,0
+2014,Beau & Tella,20,3,60,13.75,,green urchin,0,0
+2014,Beau & Tella,20,3,60,13.75,,leather star,1,0.016666667
+2014,Beau & Tella,20,3,60,13.75,,leather star,0,0
+2014,Beau & Tella,20,3,60,13.75,,sunflower star,1,0.016666667
+2014,Beau & Tella,20,3,60,13.75,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,13.75,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,13.75,,red urchin,0,0
+2014,Beau & Tella,20,3,60,13.75,,striped sunflower star,0,0
+2014,Beau & Tella,20,3,60,13.75,,morning star,0,0
+2014,Beau & Tella,20,3,60,13.75,,purple urchin,0,0
+2014,Beau & Tella,20,3,60,13.5,,green urchin,0,0
+2014,Beau & Tella,20,3,60,13.5,,green urchin,0,0
+2014,Beau & Tella,20,3,60,13.5,,leather star,0,0
+2014,Beau & Tella,20,3,60,13.5,,leather star,0,0
+2014,Beau & Tella,20,3,60,13.5,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,13.5,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,13.5,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,13.5,,red urchin,0,0
+2014,Beau & Tella,20,3,60,13.5,,striped sunflower star,0,0
+2014,Beau & Tella,20,3,60,13.5,,morning star,2,0.033333333
+2014,Beau & Tella,20,3,60,13.5,,purple urchin,0,0
+2014,Beau & Tella,20,3,60,4,,green urchin,0,0
+2014,Beau & Tella,20,3,60,4,,green urchin,4,0.066666667
+2014,Beau & Tella,20,3,60,4,,leather star,0,0
+2014,Beau & Tella,20,3,60,4,,leather star,1,0.016666667
+2014,Beau & Tella,20,3,60,4,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,4,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,4,,sunflower star,0,0
+2014,Beau & Tella,20,3,60,4,,red urchin,232,3.866666667
+2014,Beau & Tella,20,3,60,4,,striped sunflower star,0,0
+2014,Beau & Tella,20,3,60,4,,morning star,1,0.016666667
+2014,Beau & Tella,20,3,60,4,,purple urchin,0,0
+2016,a,20,3,60,8.5,,green urchin,0,0
+2016,a,20,3,60,8.5,,leather star,0,0
+2016,a,20,3,60,8.5,,leather star,0,0
+2016,a,20,3,60,8.5,,sunflower star,1,0.016666667
+2016,a,20,3,60,8.5,,red urchin,0,0
+2016,a,20,3,60,8.5,,striped sunflower star,0,0
+2016,a,20,3,60,8.5,,morning star,0,0
+2016,a,20,3,60,8.5,,purple urchin,0,0
+2016,b,20,3,60,8.5,,green urchin,0,0
+2016,b,20,3,60,8.5,,leather star,1,0.016666667
+2016,b,20,3,60,8.5,,sunflower star,2,0.033333333
+2016,b,20,3,60,8.5,,red urchin,82,1.366666667
+2016,b,20,3,60,8.5,,striped sunflower star,0,0
+2016,b,20,3,60,8.5,,morning star,1,0.016666667
+2016,b,20,3,60,8.5,,purple urchin,0,0
+2016,c,20,3,60,8.5,,green urchin,0,0
+2016,c,20,3,60,8.5,,leather star,0,0
+2016,c,20,3,60,8.5,,sunflower star,3,0.05
+2016,c,20,3,60,8.5,,red urchin,242,4.033333333
+2016,c,20,3,60,8.5,,striped sunflower star,2,0.033333333
+2016,c,20,3,60,8.5,,morning star,2,0.033333333
+2016,c,20,3,60,8.5,,purple urchin,0,0
+2016,a,20,3,60,13,,green urchin,0,0
+2016,a,20,3,60,13,,leather star,1,0.016666667
+2016,a,20,3,60,13,,sunflower star,1,0.016666667
+2016,a,20,3,60,13,,red urchin,0,0
+2016,a,20,3,60,13,,striped sunflower star,0,0
+2016,a,20,3,60,13,,morning star,0,0
+2016,a,20,3,60,13,,purple urchin,0,0
+2016,a,20,3,60,4,,green urchin,16,0.266666667
+2016,a,20,3,60,4,,leather star,4,0.066666667
+2016,a,20,3,60,4,,sunflower star,5,0.083333333
+2016,a,20,3,60,4,,red urchin,275,4.583333333
+2016,a,20,3,60,4,,striped sunflower star,0,0
+2016,a,20,3,60,4,,morning star,1,0.016666667
+2016,a,20,3,60,4,,purple urchin,0,0
+2016,b,20,3,60,4,,green urchin,6,0.1
+2016,b,20,3,60,4,,leather star,0,0
+2016,b,20,3,60,4,,sunflower star,0,0
+2016,b,20,3,60,4,,red urchin,332,5.533333333
+2016,b,20,3,60,4,,striped sunflower star,0,0
+2016,b,20,3,60,4,,morning star,1,0.016666667
+2016,b,20,3,60,4,,purple urchin,0,0
+2016,d,20,3,60,8.5,,green urchin,4,0.066666667
+2016,d,20,3,60,8.5,,leather star,1,0.016666667
+2016,d,20,3,60,8.5,,sunflower star,1,0.016666667
+2016,d,20,3,60,8.5,,red urchin,242,4.033333333
+2016,d,20,3,60,8.5,,striped sunflower star,2,0.033333333
+2016,d,20,3,60,8.5,,morning star,2,0.033333333
+2016,d,20,3,60,8.5,,purple urchin,0,0
+2016,e,20,3,60,8.5,,green urchin,2,0.033333333
+2016,e,20,3,60,8.5,,leather star,0,0
+2016,e,20,3,60,8.5,,sunflower star,0,0
+2016,e,20,3,60,8.5,,red urchin,298,4.966666667
+2016,e,20,3,60,8.5,,striped sunflower star,2,0.033333333
+2016,e,20,3,60,8.5,,morning star,2,0.033333333
+2016,e,20,3,60,8.5,,purple urchin,0,0
+2016,f,20,3,60,8.5,,green urchin,0,0
+2016,f,20,3,60,8.5,,leather star,0,0
+2016,f,20,3,60,8.5,,sunflower star,1,0.016666667
+2016,f,20,3,60,8.5,,red urchin,242,4.033333333
+2016,f,20,3,60,8.5,,striped sunflower star,1,0.016666667
+2016,f,20,3,60,8.5,,morning star,2,0.033333333
+2016,f,20,3,60,8.5,,purple urchin,0,0
+2016,b,20,3,60,13,,green urchin,0,0
+2016,b,20,3,60,13,,leather star,1,0.016666667
+2016,b,20,3,60,13,,sunflower star,1,0.016666667
+2016,b,20,3,60,13,,red urchin,0,0
+2016,b,20,3,60,13,,striped sunflower star,0,0
+2016,b,20,3,60,13,,morning star,0,0
+2016,b,20,3,60,13,,purple urchin,0,0
+2016,c,20,3,60,13,,green urchin,0,0
+2016,c,20,3,60,13,,leather star,0,0
+2016,c,20,3,60,13,,sunflower star,0,0
+2016,c,20,3,60,13,,red urchin,0,0
+2016,c,20,3,60,13,,striped sunflower star,0,0
+2016,c,20,3,60,13,,morning star,2,0.033333333
+2016,c,20,3,60,13,,purple urchin,0,0
+2016,c,20,3,60,4,,green urchin,4,0.066666667
+2016,c,20,3,60,4,,leather star,1,0.016666667
+2016,c,20,3,60,4,,sunflower star,0,0
+2016,c,20,3,60,4,,red urchin,232,3.866666667
+2016,c,20,3,60,4,,striped sunflower star,0,0
+2016,c,20,3,60,4,,morning star,1,0.016666667
+2016,c,20,3,60,4,,purple urchin,0,0
+2018,IMC+FF,20,2,40,8.35,sand,green urchin,0,0
+2018,IMC+FF,20,2,40,8.35,sand,red urchin,67,1.675
+2018,IMC+FF,20,2,40,8.35,sand,purple urchin,0,0
+2018,IMC+FF,20,2,40,8.35,sand,leather star,0,0
+2018,IMC+FF,20,2,40,8.35,sand,ochre star,0,0
+2018,IMC+FF,20,2,40,8.35,sand,giant pink star,0,0
+2018,IMC+FF,20,2,40,8.35,sand,mottled star,0,0
+2018,IMC+FF,20,2,40,8.35,sand,sunflower star,0,0
+2018,IMC+FF,20,2,40,8.35,sand,striped sunflower star,0,0
+2018,IMC+FF,20,2,40,8.35,sand,morning star,0,0
+2018,IMC+FF,20,2,40,8.35,sand,painted star,0,0
+2018,IMC+FF,20,2,40,8.35,sand,blood star,0,0
+2018,IMC+FF,20,2,40,8.35,sand,vermilion star,0,0
+2018,IMC+FF,20,2,40,8.35,sand,bat star,0,0
+2018,IMC+FF,20,2,40,8.4,cobble,green urchin,0,0
+2018,IMC+FF,20,2,40,8.4,cobble,red urchin,100,2.5
+2018,IMC+FF,20,2,40,8.4,cobble,purple urchin,0,0
+2018,IMC+FF,20,2,40,8.4,cobble,leather star,1,0.025
+2018,IMC+FF,20,2,40,8.4,cobble,ochre star,1,0.025
+2018,IMC+FF,20,2,40,8.4,cobble,giant pink star,0,0
+2018,IMC+FF,20,2,40,8.4,cobble,mottled star,0,0
+2018,IMC+FF,20,2,40,8.4,cobble,sunflower star,0,0
+2018,IMC+FF,20,2,40,8.4,cobble,striped sunflower star,1,0.025
+2018,IMC+FF,20,2,40,8.4,cobble,morning star,0,0
+2018,IMC+FF,20,2,40,8.4,cobble,painted star,3,0.075
+2018,IMC+FF,20,2,40,8.4,cobble,blood star,1,0.025
+2018,IMC+FF,20,2,40,8.4,cobble,vermilion star,0,0
+2018,IMC+FF,20,2,40,8.4,cobble,bat star,0,0
+2018,IMC+FF,20,2,40,8.45,sand,green urchin,0,0
+2018,IMC+FF,20,2,40,8.45,sand,red urchin,62,1.55
+2018,IMC+FF,20,2,40,8.45,sand,purple urchin,0,0
+2018,IMC+FF,20,2,40,8.45,sand,leather star,2,0.05
+2018,IMC+FF,20,2,40,8.45,sand,ochre star,0,0
+2018,IMC+FF,20,2,40,8.45,sand,giant pink star,0,0
+2018,IMC+FF,20,2,40,8.45,sand,mottled star,1,0.025
+2018,IMC+FF,20,2,40,8.45,sand,sunflower star,0,0
+2018,IMC+FF,20,2,40,8.45,sand,striped sunflower star,0,0
+2018,IMC+FF,20,2,40,8.45,sand,morning star,0,0
+2018,IMC+FF,20,2,40,8.45,sand,painted star,0,0
+2018,IMC+FF,20,2,40,8.45,sand,blood star,1,0.025
+2018,IMC+FF,20,2,40,8.45,sand,vermilion star,0,0
+2018,IMC+FF,20,2,40,8.45,sand,bat star,0,0
+2018,IMC+FF,20,2,40,5.85,boulder,green urchin,0,0
+2018,IMC+FF,20,2,40,5.85,boulder,red urchin,189,4.725
+2018,IMC+FF,20,2,40,5.85,boulder,purple urchin,0,0
+2018,IMC+FF,20,2,40,5.85,boulder,leather star,3,0.075
+2018,IMC+FF,20,2,40,5.85,boulder,ochre star,1,0.025
+2018,IMC+FF,20,2,40,5.85,boulder,giant pink star,0,0
+2018,IMC+FF,20,2,40,5.85,boulder,mottled star,0,0
+2018,IMC+FF,20,2,40,5.85,boulder,sunflower star,0,0
+2018,IMC+FF,20,2,40,5.85,boulder,striped sunflower star,0,0
+2018,IMC+FF,20,2,40,5.85,boulder,morning star,0,0
+2018,IMC+FF,20,2,40,5.85,boulder,painted star,2,0.05
+2018,IMC+FF,20,2,40,5.85,boulder,blood star,0,0
+2018,IMC+FF,20,2,40,5.85,boulder,vermilion star,0,0
+2018,IMC+FF,20,2,40,5.85,boulder,bat star,0,0
+2018,IMC+FF,20,2,40,5.6,boulder,green urchin,0,0
+2018,IMC+FF,20,2,40,5.6,boulder,red urchin,218,5.45
+2018,IMC+FF,20,2,40,5.6,boulder,purple urchin,0,0
+2018,IMC+FF,20,2,40,5.6,boulder,leather star,7,0.175
+2018,IMC+FF,20,2,40,5.6,boulder,ochre star,0,0
+2018,IMC+FF,20,2,40,5.6,boulder,giant pink star,0,0
+2018,IMC+FF,20,2,40,5.6,boulder,mottled star,0,0
+2018,IMC+FF,20,2,40,5.6,boulder,sunflower star,0,0
+2018,IMC+FF,20,2,40,5.6,boulder,striped sunflower star,0,0
+2018,IMC+FF,20,2,40,5.6,boulder,morning star,0,0
+2018,IMC+FF,20,2,40,5.6,boulder,painted star,2,0.05
+2018,IMC+FF,20,2,40,5.6,boulder,blood star,5,0.125
+2018,IMC+FF,20,2,40,5.6,boulder,vermilion star,0,0
+2018,IMC+FF,20,2,40,5.6,boulder,bat star,0,0
+2018,IMC+FF,20,2,40,5.6,boulder,green urchin,0,0
+2018,IMC+FF,20,2,40,5.6,boulder,red urchin,247,6.175
+2018,IMC+FF,20,2,40,5.6,boulder,purple urchin,0,0
+2018,IMC+FF,20,2,40,5.6,boulder,leather star,2,0.05
+2018,IMC+FF,20,2,40,5.6,boulder,ochre star,0,0
+2018,IMC+FF,20,2,40,5.6,boulder,giant pink star,0,0
+2018,IMC+FF,20,2,40,5.6,boulder,mottled star,0,0
+2018,IMC+FF,20,2,40,5.6,boulder,sunflower star,0,0
+2018,IMC+FF,20,2,40,5.6,boulder,striped sunflower star,0,0
+2018,IMC+FF,20,2,40,5.6,boulder,morning star,0,0
+2018,IMC+FF,20,2,40,5.6,boulder,painted star,3,0.075
+2018,IMC+FF,20,2,40,5.6,boulder,blood star,0,0
+2018,IMC+FF,20,2,40,5.6,boulder,vermilion star,0,0
+2018,IMC+FF,20,2,40,5.6,boulder,bat star,0,0
+2018,Hannah+Benj,20,2,40,14.35,NA,green urchin,0,0
+2018,Hannah+Benj,20,2,40,14.35,NA,red urchin,0,0
+2018,Hannah+Benj,20,2,40,14.35,NA,purple urchin,0,0
+2018,Hannah+Benj,20,2,40,14.35,NA,leather star,0,0
+2018,Hannah+Benj,20,2,40,14.35,NA,ochre star,0,0
+2018,Hannah+Benj,20,2,40,14.35,NA,giant pink star,0,0
+2018,Hannah+Benj,20,2,40,14.35,NA,mottled star,0,0
+2018,Hannah+Benj,20,2,40,14.35,NA,sunflower star,0,0
+2018,Hannah+Benj,20,2,40,14.35,NA,striped sunflower star,0,0
+2018,Hannah+Benj,20,2,40,14.35,NA,morning star,0,0
+2018,Hannah+Benj,20,2,40,14.35,NA,painted star,0,0
+2018,Hannah+Benj,20,2,40,14.35,NA,blood star,0,0
+2018,Hannah+Benj,20,2,40,14.35,NA,vermilion star,0,0
+2018,Hannah+Benj,20,2,40,14.35,NA,bat star,0,0
+2018,Hannah+Benj,20,2,40,12,NA,green urchin,0,0
+2018,Hannah+Benj,20,2,40,12,NA,red urchin,1,0.025
+2018,Hannah+Benj,20,2,40,12,NA,purple urchin,0,0
+2018,Hannah+Benj,20,2,40,12,NA,leather star,1,0.025
+2018,Hannah+Benj,20,2,40,12,NA,ochre star,0,0
+2018,Hannah+Benj,20,2,40,12,NA,giant pink star,0,0
+2018,Hannah+Benj,20,2,40,12,NA,mottled star,0,0
+2018,Hannah+Benj,20,2,40,12,NA,sunflower star,0,0
+2018,Hannah+Benj,20,2,40,12,NA,striped sunflower star,0,0
+2018,Hannah+Benj,20,2,40,12,NA,morning star,0,0
+2018,Hannah+Benj,20,2,40,12,NA,painted star,0,0
+2018,Hannah+Benj,20,2,40,12,NA,blood star,0,0
+2018,Hannah+Benj,20,2,40,12,NA,vermilion star,0,0
+2018,Hannah+Benj,20,2,40,12,NA,bat star,0,0
+2018,Hannah+Benj,20,2,40,8.95,NA,green urchin,0,0
+2018,Hannah+Benj,20,2,40,8.95,NA,red urchin,60,1.5
+2018,Hannah+Benj,20,2,40,8.95,NA,purple urchin,0,0
+2018,Hannah+Benj,20,2,40,8.95,NA,leather star,1,0.025
+2018,Hannah+Benj,20,2,40,8.95,NA,ochre star,0,0
+2018,Hannah+Benj,20,2,40,8.95,NA,giant pink star,0,0
+2018,Hannah+Benj,20,2,40,8.95,NA,mottled star,0,0
+2018,Hannah+Benj,20,2,40,8.95,NA,sunflower star,0,0
+2018,Hannah+Benj,20,2,40,8.95,NA,striped sunflower star,0,0
+2018,Hannah+Benj,20,2,40,8.95,NA,morning star,0,0
+2018,Hannah+Benj,20,2,40,8.95,NA,painted star,0,0
+2018,Hannah+Benj,20,2,40,8.95,NA,blood star,0,0
+2018,Hannah+Benj,20,2,40,8.95,NA,vermilion star,0,0
+2018,Hannah+Benj,20,2,40,8.95,NA,bat star,0,0
+2018,Kelley+Ryan,20,2,40,14.3,NA,green urchin,0,0
+2018,Kelley+Ryan,20,2,40,14.3,NA,red urchin,0,0
+2018,Kelley+Ryan,20,2,40,14.3,NA,purple urchin,0,0
+2018,Kelley+Ryan,20,2,40,14.3,NA,leather star,0,0
+2018,Kelley+Ryan,20,2,40,14.3,NA,ochre star,0,0
+2018,Kelley+Ryan,20,2,40,14.3,NA,giant pink star,0,0
+2018,Kelley+Ryan,20,2,40,14.3,NA,mottled star,2,0.05
+2018,Kelley+Ryan,20,2,40,14.3,NA,sunflower star,0,0
+2018,Kelley+Ryan,20,2,40,14.3,NA,striped sunflower star,0,0
+2018,Kelley+Ryan,20,2,40,14.3,NA,morning star,0,0
+2018,Kelley+Ryan,20,2,40,14.3,NA,painted star,0,0
+2018,Kelley+Ryan,20,2,40,14.3,NA,blood star,0,0
+2018,Kelley+Ryan,20,2,40,14.3,NA,vermilion star,1,0.025
+2018,Kelley+Ryan,20,2,40,14.3,NA,bat star,0,0
+2018,Kelley+Ryan,20,2,40,11.1,NA,green urchin,0,0
+2018,Kelley+Ryan,20,2,40,11.1,NA,red urchin,2,0.05
+2018,Kelley+Ryan,20,2,40,11.1,NA,purple urchin,0,0
+2018,Kelley+Ryan,20,2,40,11.1,NA,leather star,0,0
+2018,Kelley+Ryan,20,2,40,11.1,NA,ochre star,0,0
+2018,Kelley+Ryan,20,2,40,11.1,NA,giant pink star,0,0
+2018,Kelley+Ryan,20,2,40,11.1,NA,mottled star,0,0
+2018,Kelley+Ryan,20,2,40,11.1,NA,sunflower star,0,0
+2018,Kelley+Ryan,20,2,40,11.1,NA,striped sunflower star,0,0
+2018,Kelley+Ryan,20,2,40,11.1,NA,morning star,0,0
+2018,Kelley+Ryan,20,2,40,11.1,NA,painted star,1,0.025
+2018,Kelley+Ryan,20,2,40,11.1,NA,blood star,0,0
+2018,Kelley+Ryan,20,2,40,11.1,NA,vermilion star,1,0.025
+2018,Kelley+Ryan,20,2,40,11.1,NA,bat star,1,0.025
+2018,Kelley+Ryan,20,2,40,9,NA,green urchin,0,0
+2018,Kelley+Ryan,20,2,40,9,NA,red urchin,31,0.775
+2018,Kelley+Ryan,20,2,40,9,NA,purple urchin,0,0
+2018,Kelley+Ryan,20,2,40,9,NA,leather star,0,0
+2018,Kelley+Ryan,20,2,40,9,NA,ochre star,0,0
+2018,Kelley+Ryan,20,2,40,9,NA,giant pink star,0,0
+2018,Kelley+Ryan,20,2,40,9,NA,mottled star,1,0.025
+2018,Kelley+Ryan,20,2,40,9,NA,sunflower star,0,0
+2018,Kelley+Ryan,20,2,40,9,NA,striped sunflower star,0,0
+2018,Kelley+Ryan,20,2,40,9,NA,morning star,0,0
+2018,Kelley+Ryan,20,2,40,9,NA,painted star,6,0.15
+2018,Kelley+Ryan,20,2,40,9,NA,blood star,0,0
+2018,Kelley+Ryan,20,2,40,9,NA,vermilion star,0,0
+2018,Kelley+Ryan,20,2,40,9,NA,bat star,0,0
+2018,Dan+Ariel,20,2,40,13.75,sand,green urchin,0,0
+2018,Dan+Ariel,20,2,40,13.75,sand,red urchin,0,0
+2018,Dan+Ariel,20,2,40,13.75,sand,purple urchin,0,0
+2018,Dan+Ariel,20,2,40,13.75,sand,leather star,0,0
+2018,Dan+Ariel,20,2,40,13.75,sand,ochre star,0,0
+2018,Dan+Ariel,20,2,40,13.75,sand,giant pink star,0,0
+2018,Dan+Ariel,20,2,40,13.75,sand,mottled star,0,0
+2018,Dan+Ariel,20,2,40,13.75,sand,sunflower star,0,0
+2018,Dan+Ariel,20,2,40,13.75,sand,striped sunflower star,0,0
+2018,Dan+Ariel,20,2,40,13.75,sand,morning star,0,0
+2018,Dan+Ariel,20,2,40,13.75,sand,painted star,0,0
+2018,Dan+Ariel,20,2,40,13.75,sand,blood star,0,0
+2018,Dan+Ariel,20,2,40,13.75,sand,vermilion star,1,0.025
+2018,Dan+Ariel,20,2,40,13.75,sand,bat star,0,0
+2018,Dan+Ariel,20,2,40,12.65,sand,green urchin,0,0
+2018,Dan+Ariel,20,2,40,12.65,sand,red urchin,0,0
+2018,Dan+Ariel,20,2,40,12.65,sand,purple urchin,0,0
+2018,Dan+Ariel,20,2,40,12.65,sand,leather star,0,0
+2018,Dan+Ariel,20,2,40,12.65,sand,ochre star,0,0
+2018,Dan+Ariel,20,2,40,12.65,sand,giant pink star,0,0
+2018,Dan+Ariel,20,2,40,12.65,sand,mottled star,0,0
+2018,Dan+Ariel,20,2,40,12.65,sand,sunflower star,0,0
+2018,Dan+Ariel,20,2,40,12.65,sand,striped sunflower star,0,0
+2018,Dan+Ariel,20,2,40,12.65,sand,morning star,0,0
+2018,Dan+Ariel,20,2,40,12.65,sand,painted star,0,0
+2018,Dan+Ariel,20,2,40,12.65,sand,blood star,0,0
+2018,Dan+Ariel,20,2,40,12.65,sand,vermilion star,0,0
+2018,Dan+Ariel,20,2,40,12.65,sand,bat star,1,0.025
+2018,Cailean+Charles,20,2,40,13.85,sand,green urchin,0,0
+2018,Cailean+Charles,20,2,40,13.85,sand,red urchin,0,0
+2018,Cailean+Charles,20,2,40,13.85,sand,purple urchin,0,0
+2018,Cailean+Charles,20,2,40,13.85,sand,leather star,0,0
+2018,Cailean+Charles,20,2,40,13.85,sand,ochre star,0,0
+2018,Cailean+Charles,20,2,40,13.85,sand,giant pink star,0,0
+2018,Cailean+Charles,20,2,40,13.85,sand,mottled star,0,0
+2018,Cailean+Charles,20,2,40,13.85,sand,sunflower star,0,0
+2018,Cailean+Charles,20,2,40,13.85,sand,striped sunflower star,0,0
+2018,Cailean+Charles,20,2,40,13.85,sand,morning star,0,0
+2018,Cailean+Charles,20,2,40,13.85,sand,painted star,0,0
+2018,Cailean+Charles,20,2,40,13.85,sand,blood star,0,0
+2018,Cailean+Charles,20,2,40,13.85,sand,vermilion star,2,0.05
+2018,Cailean+Charles,20,2,40,13.85,sand,bat star,0,0
+2018,Cailean+Charles,20,2,40,11.9,sand,green urchin,0,0
+2018,Cailean+Charles,20,2,40,11.9,sand,red urchin,0,0
+2018,Cailean+Charles,20,2,40,11.9,sand,purple urchin,0,0
+2018,Cailean+Charles,20,2,40,11.9,sand,leather star,0,0
+2018,Cailean+Charles,20,2,40,11.9,sand,ochre star,0,0
+2018,Cailean+Charles,20,2,40,11.9,sand,giant pink star,1,0.025
+2018,Cailean+Charles,20,2,40,11.9,sand,mottled star,1,0.025
+2018,Cailean+Charles,20,2,40,11.9,sand,sunflower star,1,0.025
+2018,Cailean+Charles,20,2,40,11.9,sand,striped sunflower star,0,0
+2018,Cailean+Charles,20,2,40,11.9,sand,morning star,0,0
+2018,Cailean+Charles,20,2,40,11.9,sand,painted star,0,0
+2018,Cailean+Charles,20,2,40,11.9,sand,blood star,0,0
+2018,Cailean+Charles,20,2,40,11.9,sand,vermilion star,0,0
+2018,Cailean+Charles,20,2,40,11.9,sand,bat star,0,0
