@@ -15,10 +15,10 @@
 
 # We must first install required packages
 # Once a package is installed we don't need to install them again
-install.packages("tidyverse")
-install.packages("ggplot2")
-install.packages("ggeffects")
-install.packages("lme4")
+#install.packages("tidyverse")
+#install.packages("ggplot2")
+#install.packages("ggeffects")
+#install.packages("lme4")
 
 # Now we'll load them into this project so we can use them!
 # Note that you don't need "" marks here
